@@ -1,0 +1,3 @@
+-record(ev, { module, msg, trigger, name }).
+-record(cx, { handlers, actions, req, module, lang, path, session, params, form, state=[] }).
+-define(CTX, (get(context))).

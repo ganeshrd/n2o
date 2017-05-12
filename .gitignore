@@ -16,3 +16,4 @@ samples/deps
 **/Mnesia*/**
 test/bert.data
 .idea/
+*.swp
